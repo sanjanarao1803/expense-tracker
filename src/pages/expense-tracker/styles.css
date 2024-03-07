@@ -1,0 +1,119 @@
+.body h1 {
+  font-size:350%; 
+  padding-left: 5%;
+  padding-right: 10%;
+  padding-top: 4%;
+  color: whitesmoke;
+} 
+
+  
+  .body{
+    background: rgb(56, 53, 121);
+    background: linear-gradient(
+      90deg,
+     rgb(56, 53, 121) 0%,
+     rgb(93, 183, 203) 100%
+    );
+    width: 100%;
+  }
+  
+
+  .expense-tracker {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+  .money{
+    margin-top: 3%;
+  }
+
+  .expense-tracker button {
+    margin-top: 2%;
+    margin-bottom: 6%;
+  }
+  .amount{
+    max-width: 40%;
+  }
+  .desc{
+    max-width: 70%;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+  }
+  .profile-photo {
+    width: 300%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15%;
+  }
+    
+  .sign-out-button:hover {
+    cursor: pointer;
+
+  }
+  
+
+   .transactions {
+    margin: auto;
+    padding-left: 10px;
+    width: 50%;
+    height: 400px;
+    overflow: auto;
+  }
+  .navbar {
+    position:fixed;
+    top: 0;
+  }
+
+  @media screen and (max-width : 900px){
+    .profile-photo{
+      width: 27vw;
+    }
+    .body h1{
+      font-size: 6.5vw;
+    } 
+    .transactions{
+      width: 70%;
+    }
+ 
+
+  }
+
+  @media screen and (min-width : 900px){
+    .sign-out-button{
+      width: 175%;
+    }
+  }
+
+  @media screen and (max-width : 600px){
+    .transactions{
+      width: 90%;
+      margin: auto;
+    }
+    .desc{
+      max-width: 80%;
+    }
+    .amount{
+      max-width: 80%;
+    }
+    .transactions{
+      height: 300px;
+    }
+    
+
+  }
+
+  /* @media screen and (max-width : 450px){
+    .sign-out-button{
+      width: 20vw;
+    }
+  } */
+
+
